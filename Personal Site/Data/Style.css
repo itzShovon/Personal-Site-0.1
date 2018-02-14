@@ -1,0 +1,105 @@
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+html {
+    background: url(206268.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+*/
+
+body{
+    font-size: 20px;
+    font-family: Verdana, Arial;
+    color: aliceblue;
+/*    margin-top: -10%;*/
+}
+
+.header{
+    background-color: black;
+    height: 100px;
+    width: 100%;
+}
+
+.Hleft{
+    float: left;
+    height: 100%;
+    width: 30%;
+/*    background-color: blue;*/
+}
+
+.Hleft h2{
+    padding: 5% 10%;
+}
+
+.Hleft h2 a{
+    text-decoration: none;
+    color: #f2f2f2;
+}
+
+.
+
+.Hmiddle{
+    width: 50%;
+/*    float: left;*/
+/*
+    height: 100%;
+    width: 50%;
+    background-color: blue;
+    border: 2px solid red;
+*/
+}
+
+.Hmiddle ul li{
+    list-style-type: none;
+    float: left;
+    padding: 2% 1%;
+    height: 100%;
+/*    background-color: aqua;*/
+}
+
+.Hmiddle ul li:hover{
+    list-style-type: none;
+    float: left;
+    padding: 2% 1%;
+    height: 100%;
+    background-color: #4d4d4d;
+    color: dimgrey;
+}
+
+.Hmiddle ul li a{
+    text-decoration: none;
+    color: #d1e0e0;
+}
+
+.Hmiddle ul li a:hover{
+    text-decoration: none;
+    color: #f0f5f5;
+}
+
+.Hmiddle ul li a:active{
+    text-decoration: none;
+    color: #808080;
+}
+
+.Hright{
+    width: 20%;
+    height: 100%;
+/*    background-color: antiquewhite;*/
+    float: right;
+}
+
+.Hright p{
+    margin: 30px 10px 0 0;
+    color: #8c8c8c;
+}
+
+.body{
+    margin-top: -10%;
+}

@@ -1,0 +1,47 @@
+html {
+    background: url(Useful%20Link.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.body{
+    width: 100%;
+    height: 100%;
+}
+
+.UsefulLink{
+    background-color: #404040;
+}
+
+.Blinks{
+    width: 470px;
+    clear: both;
+    display: block;
+    margin: 200px 0 0 100px;
+    background-color: rgba(155, 136, 31, 0.7);
+    padding: 1% 0;
+}
+
+.Blinks ul li a{
+    display: block;
+    padding: 10px 0 5px 30px;
+    text-decoration: none;
+    color: white;
+    width: 90%;
+}
+
+.Blinks ul li{
+    list-style-type: none;
+    border-top: 2px solid white;
+}
+
+.Blinks ul li:hover{
+    list-style-type: none;
+    border-top: 2px solid dimgray;
+}
+
+.Blinks ul li a:hover{
+    background-color: rgb(28, 28, 9, 0.6);
+}

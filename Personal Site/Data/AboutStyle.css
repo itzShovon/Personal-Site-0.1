@@ -1,0 +1,132 @@
+html {
+    background: url(About%20Me.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.body {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+
+.About {
+    background-color: #404040;
+}
+
+.Bwhole {
+    background-color: rgba(72, 73, 74, 0.7);
+    width: 430px;
+    height: 100%;
+    margin: 3% 0 0 8%;
+    float: left;
+}
+
+.Bwhole h4 {
+    text-align: left;
+    margin: 4px 0 6px 30px;
+    font-size: 20px;
+}
+
+.Bwhole h4 a {
+    text-decoration: none;
+    color: azure;
+}
+
+.Bwhole h4 a:hover {
+    text-decoration: none;
+    color: #b3ffe6;
+}
+
+.Bwhole img {
+    width: 40%;
+    height: 40%;
+    margin: 4% 0 3% 20%;
+}
+
+.Bwhole h3 {
+    font-size: 22px;
+    font-weight: 400;
+    height: 40%;
+    padding: 5px 8px;
+    background-color: #4d4d4d;
+    float: left;
+    padding: 5px 8px;
+    margin: 20px 0 20px 10px;
+    cursor: pointer;
+}
+
+.Bwhole h3:hover {
+    background-color: #666666;
+}
+
+.Bwhole h3:active {
+    background-color: #262626;
+}
+
+.Bextra {
+    height: 100%;
+    width: 469px;
+    float: right;
+    background-color: rgba(77, 77, 77, 0.6);
+    margin: 60px 50px 0 0;
+}
+
+.Bextra div p{
+    display: block;
+    border-bottom: 1px solid white;
+    margin: 5px 0 10px 0;
+}
+
+.Bextra div strong{
+    margin: 10px 0 5px 0;
+}
+
+.Bextra div ul li{
+/*    background-color: red;*/
+    margin: 3px 0;
+    list-style-type: none;
+}
+
+.BEresult,
+.BEhobbies,
+.BEskills,
+.BEacademic {
+    display: none;
+    margin: 10px 20px;
+}
+
+/*
+.BEresult {
+    display: block;
+}
+*/
+
+.BEresult table {
+    clear: both;
+    width: 100%;
+}
+
+.BEresult table tr {}
+
+.BEresult table tr th {
+    border-bottom: 2px solid white;
+    float: left;
+    display: block;
+    padding: 10px;
+    text-align: left;
+    width: 80px;
+    margin: 1px 1px;
+}
+
+.BEresult table tr td {
+    border-bottom: 2px solid #b5b5b5;
+    float: left;
+    display: block;
+    padding: 10px;
+    text-align: left;
+    width: 80px;
+    margin: 1px 1px;
+}

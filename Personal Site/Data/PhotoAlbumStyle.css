@@ -1,0 +1,61 @@
+html {
+    background: url(Photo%20Album.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.Bleft{
+    width: 170px;
+    height: 100%;
+    float: left;
+    margin-left: 10%;
+/*    background-color: aqua;*/
+    clear: both;
+
+}
+
+.PhotoAlbum{
+    background-color: #404040;
+}
+
+.Bleft div{
+    margin: 1% 3%;
+    width: 160px;
+    height: 90px;
+    clear: both;
+    float: left;
+    background-color: #193366;
+}
+
+.Bleft div:hover{
+    background-color: darkslategray;
+}
+
+.Bleft div img{
+    width: 98%;
+    height: 98%;
+}
+
+.Bright{
+    margin-left: 23%;
+    margin-top: 10%;
+/*    float: left;*/
+    width: 1000px;
+    height: 100%;
+/*    background-color: rgba(102, 0, 255, 0.5);*/
+}
+
+.Bright div{
+    display: none;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(102, 0, 255, 0.5);
+}
+
+.Bright div img{
+    margin: 2px 5px;
+    height: 31.5%;
+    width: 31.5%;
+}

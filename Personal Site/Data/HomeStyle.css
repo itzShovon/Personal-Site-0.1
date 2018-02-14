@@ -1,0 +1,50 @@
+html {
+    background: url(Home.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.Home{
+    background-color: #404040;
+}
+
+.Bwindow{
+    width: 30%;
+    height: 60%;
+/*    background-color: dimgray;*/
+    float: right;
+    margin-right: 10%;
+    margin-top: 10%;
+}
+
+.Bwindow h5{
+    background-color: dimgray;
+    padding: 2% 5%;
+}
+
+.Bwindow h2{
+    background-color: gainsboro;
+    color: dimgray;
+    padding: 2% 5%;
+}
+
+.Bwindow a{
+    clear: both;
+    background-color: dimgrey;
+    color: gainsboro;
+    padding: 2% 5%;
+    margin-left: 5%;
+    text-decoration: none;
+}
+
+.Bwindow a:hover{
+    background-color: #595959;
+    color: #e6e6e6;
+}
+
+.Bwindow a:active{
+    background-color: #333333;
+    color: #f2f2f2;
+}
